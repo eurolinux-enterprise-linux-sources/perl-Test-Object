@@ -1,6 +1,6 @@
 Name:           perl-Test-Object
 Version:        0.07
-Release:        16%{?dist}
+Release:        17%{?dist}
 Summary:        Thoroughly testing objects via registered handlers
 
 Group:          Development/Libraries
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.07-17
+- Mass rebuild 2013-12-27
+
 * Tue Oct 23 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.07-16
 - Specify all dependencies.
 - Remove patch, because it is not needed (current version of Test::Builder
